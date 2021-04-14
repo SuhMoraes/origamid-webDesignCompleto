@@ -11,7 +11,8 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#layout">Layout</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#conteudo">Conteúdo</a> •
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
@@ -26,20 +27,23 @@
  <hr>
  
  
-<h3 id="layout">:pencil2:Layout</h3>
+<h3 id="layout">:sparkler:Layout</h3>
 
 
 <hr>
-<h3 id="tecnologias">:pencil2:Tecnologias</h3>
+<h3 id="tecnologias">:computer:Tecnologias</h3>
 
 <hr>
-<h3 id="contribuicao">::Contribuição</h3>
+<h3 id="conteudo">:books:Conteúdo</h3>
 
 <hr>
-<h3 id="licenc-a">:Lincença</h3>
+<h3 id="contribuicao">:handshake:Contribuição</h3>
 
 <hr>
-<h3 id="autor">::Autor</h3>
+<h3 id="licenc-a">:receipt:Lincença</h3>
+
+<hr>
+<h3 id="autor">:robot:Autor</h3>
  
 
 
