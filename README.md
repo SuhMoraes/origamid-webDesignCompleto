@@ -18,7 +18,7 @@
 </p>
 <hr>
 
-<h2>:dart:Objetivo<h2>
+<h2>:dart:Objetivo</h2>
   <p>
     O curso Web Design Completo, tem como objetivo ensinar na prática como criar um site responsivo do zero.<br>
     Do Design como: Fundamentos e UX/UI, construção do Wireframe com Adobe XD entre outros ao Código: HTML5, CSS3, Responsividade, JavaScript básico, Hospedagem.
