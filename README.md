@@ -19,31 +19,43 @@
 </p>
 <hr>
 
-<h3 id="objetivo">:dart:Objetivo</h3>
+<h2 id="objetivo">:dart:Objetivo</h2>
   <p>
     O curso Web Design Completo, tem como objetivo ensinar na prática como criar um site responsivo do zero.<br>
     Do Design como: Fundamentos e UX/UI, construção do Wireframe com Adobe XD entre outros ao Código: HTML5, CSS3, Responsividade, JavaScript básico, Hospedagem.
   </p>  
+  <p>
+	O conteúdo da web page será voltado a uma loja virtual chamada: bik craft. Onde irei aprender a fazer paginação, construção de e-commerce com: Portfólio, orçamento, formulário de contato.
+ </p>
  <hr>
  
+  
  
-<h3 id="layout">:sparkler:Layout</h3>
+<h2 id="layout">:sparkler:Layout</h2>
+<ol>
+	<li><a href="https://xd.adobe.com/embed/128d6039-d540-41f9-9b64-b15995fca3d4-47de/">Wireframe</a></li>
+	<li><a href="#">🚧 Design</a></li>
+	<li><a href="#">🚧 Web Site</a></li>
+</ol>
 
 
 <hr>
-<h3 id="tecnologias">:computer:Tecnologias</h3>
+<h2 id="tecnologias">:computer:Tecnologias</h2>
+<ul>
+	<li><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"></li>
+</ul>
 
 <hr>
-<h3 id="conteudo">:books:Conteúdo</h3>
+<h2 id="conteudo">:books:Conteúdo</h2>
 
 <hr>
-<h3 id="contribuicao">:handshake:Contribuição</h3>
+<h2 id="contribuicao">:handshake:Contribuição</h2>
 
 <hr>
-<h3 id="licenc-a">:receipt:Lincença</h3>
+<h2 id="licenc-a">:receipt:Lincença</h2>
 
 <hr>
-<h3 id="autor">:robot:Autor</h3>
+<h2 id="autor">:robot:Autor</h2>
  
 
 
