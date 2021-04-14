@@ -12,7 +12,7 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#layout">Layout</a> • 
  <a href="#tecnologias">Tecnologias</a> •
- <a href="#conteudo">Conteúdo</a> •
+ <a href="#conteudo-das-Aulas">Conteúdo das Aulas</a> •
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
@@ -46,7 +46,7 @@
 </ul>
 
 <hr>
-<h2 id="conteudo">:books:Conteúdo</h2>
+<h2 id="conteudo-das-Aulas">:books:Conteúdo das Aulas</h2>
 
 <hr>
 <h2 id="contribuicao">:handshake:Contribuição</h2>
