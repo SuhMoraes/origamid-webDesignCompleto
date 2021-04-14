@@ -5,7 +5,7 @@
  <hr>
  
  <h4 align="center"> 
-	🚧  Curso Web Desenvolvimento 🚀 Em construção...  🚧
+	🚧  Curso Web Design🚀 Em construção...  🚧
 </h4>
 
 <p align="center">
