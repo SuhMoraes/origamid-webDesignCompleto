@@ -10,7 +10,7 @@
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
+ <a href="#layout">Layout</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
@@ -18,10 +18,28 @@
 </p>
 <hr>
 
-<h2 id="objetivo">:dart:Objetivo</h2>
+<h3 id="objetivo">:dart:Objetivo</h3>
   <p>
     O curso Web Design Completo, tem como objetivo ensinar na prática como criar um site responsivo do zero.<br>
     Do Design como: Fundamentos e UX/UI, construção do Wireframe com Adobe XD entre outros ao Código: HTML5, CSS3, Responsividade, JavaScript básico, Hospedagem.
-  </p>
-  
+  </p>  
+ <hr>
  
+ 
+<h3 id="layout">:pencil2:Layout</h3>
+
+
+<hr>
+<h3 id="tecnologias">:pencil2:Tecnologias</h3>
+
+<hr>
+<h3 id="contribuicao">::Contribuição</h3>
+
+<hr>
+<h3 id="licenc-a">:Lincença</h3>
+
+<hr>
+<h3 id="autor">::Autor</h3>
+ 
+
+
