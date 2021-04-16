@@ -34,7 +34,9 @@
 <h2 id="layout">:sparkler:Layout</h2>
 <ol>
 	<li><a href="https://xd.adobe.com/embed/128d6039-d540-41f9-9b64-b15995fca3d4-47de/">Wireframe</a></li>
-	<li><a href="#">🚧 Design</a></li>
+	<li><a href="#"><h2>Design</h2></a> <br><br>
+	   <img width="100%"  alignt="center" src="https://github.com/SuhMoraes/origamid-webDesignCompleto/blob/main/Design-bikecraft/bikeCraft.gif">
+	</li>
 	<li><a href="#">🚧 Web Site</a></li>
 </ol>
 
