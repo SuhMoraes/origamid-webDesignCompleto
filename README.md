@@ -13,7 +13,6 @@
  <a href="#layout">Layout</a> • 
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#conteudo-das-Aulas">Conteúdo das Aulas</a> •
- <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
@@ -83,5 +82,11 @@
 
 
 <hr>
-<h2 id="contribuicao">:handshake:Contribuição</h2>
+
+<h2 id="licenc-a">:handshake:Licença</h2>
+
+<hr>
+<h2 id="autor">:handshake:Autor</h2>
+<a href="https://linktr.ee/SuhailahMoraes">Suhailah Moraes</a>
+
   
