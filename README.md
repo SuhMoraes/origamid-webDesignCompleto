@@ -49,15 +49,39 @@
 
 <hr>
 <h2 id="conteudo-das-Aulas">:books:Conteúdo das Aulas</h2>
+<h3> 1 - Introdução</h3>
+<ul> 
+	<li>1-1 Introdução</li>
+	<li>1-1-1 O Curso</li>
+	<li>1-1-2 A Interface</li>
+	
+</ul>
+<h3>2 Teoria do Design</h3>
+<ul> 
+        <li>2-1-1 O Que é Design</li>
+	<li>2-1-2 Forma e Espaço</li>
+	<li>2-1-3 Cores</li>
+	<li>2-1-4 Tipografia </li>
+	<li>2-1-5 Grid</li>
+	<li>2-1-6 Dicas</li>	
+</ul>
+<h3>2 Teoria do Design</h3>
+<ul> 
+        <li>2-1-1 O Que é Design</li>
+	<li>2-1-2 Forma e Espaço</li>
+	<li>2-1-3 Cores</li>
+	<li>2-1-4 Tipografia </li>
+	<li>2-1-5 Grid</li>
+	<li>2-1-6 Dicas</li><br>	
+	<li><strong>2-2 UX Design e UI Design</strong></li>
+	<li>2-2-1 O Que é UX Design</li>
+	<li>2-2-2 Usabilidade</li>
+	<li>2-2-3 O Que é UI Design</li>
+	<li>2-2-4 Estilos de UI</li>
+</ul>
+
+
 
 <hr>
 <h2 id="contribuicao">:handshake:Contribuição</h2>
-
-<hr>
-<h2 id="licenc-a">:receipt:Lincença</h2>
-
-<hr>
-<h2 id="autor">:robot:Autor</h2>
- 
-
-
+  
