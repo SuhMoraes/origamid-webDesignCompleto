@@ -1,0 +1,27 @@
+div{
+  margin: 40px auto;
+  width: 400px;
+  background: #eee;
+  padding: 10px;
+}
+
+p{
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; /*Alinha o texto ao centro*/
+  text-transform: uppercase;/* Transforma o texto em letra maiúscula*/
+  text-indent: 40px;  
+}
+
+a{
+  text-decoration: none; /* Tira a linha abaixo do link*/
+  text-transform: uppercase;
+}
+
+ul{
+  list-style: none;
+}
