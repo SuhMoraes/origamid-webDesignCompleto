@@ -1,8 +1,54 @@
 /* ---- Estilos Gerais ----*/
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn{
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover{
+  color: #fff;
+  border-color: #fff;
+}
+/* Por padrão o que está em cima será executado primeiro */
+.btn-preto:hover{
+  color: #000;
+  border-color: #000;
+}
+
+.subtitulo{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after{/*Por padrão ::before e ::after é inline */
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 14px auto 8px auto;
+}
 
 /* ---- Header ----*/
 .header {
@@ -11,6 +57,7 @@ body{
   width: 100%;
   background-color: #fec63e;
   padding: 15px 0; 
+  z-index: 10;
 }
 
 .header-menu {
@@ -39,8 +86,95 @@ body{
 
 
 /* ---- Introdução ----*/
+.introducao{
+  width: 100%;
+  height: 380px;
+  background: url("../img/img/bg.jpg") no-repeat center;
+  background-size: cover;  /* */
+  margin-top: 96px;
+  text-align: center;
+  padding-top: 80px; /* Trouxe o conteúdo para baixo*/
+}
 
+.introducao h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.quote-externo {
+  max-width: 320px; /* Delimitar o tamanho da tela*/
+  margin: 0 auto; /* Alinhou ao centro*/
+  margin-bottom: 40px;
+  color: white;
+}
 
+/* Adicionando um traçado acima da frase */
+.quote-externo p::before, .quote-externo p::after{/*Por padrão ::before e ::after é inline */
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
 
-/* ---- Estilos Gerai ----*/
+.quote-externo p{
+  font-style: italic;
+}
+
+.quote-externo cite{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+/* ---- Produtos----*/
+
+.produtos{
+  padding: 60px 0;
+}
+
+.produtos-lista li{
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos-lista li h3{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 20px;
+}
+
+.produtos-lista li h3::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.produtos-lista li p{
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos-icone{
+  background: #000;
+  padding: 20px;  
+}
+
+.call{
+  padding-top: 40px;
+  text-align: center;
+  clear: both; /*Os elementos estão com float, necessário limpar*/
+}
+
+.call p{
+  margin-bottom: 20px;
+}
