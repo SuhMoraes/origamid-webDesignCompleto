@@ -196,8 +196,10 @@ img{
 }
 
 .produtos-lista li{
-  background: #fec63e;
-  text-align: center;
+  background: #fec63e;  
+}
+.produtos-lista li img{
+  margin: 0 auto;
 }
 
 .produtos-lista li h3{
@@ -207,6 +209,7 @@ img{
   text-transform: uppercase;
   letter-spacing: .1rem;
   margin-top: 20px;
+  text-align: center;
 }
 
 
@@ -276,6 +279,7 @@ img{
   position: absolute; /* Para posicionar o elemento */
   top: 215px;
   right: 162px;
+  z-index: -1;
 }
 
 .qualidade img{
