@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
   <link rel="shortcut icon" href="img/img/bikcraft-qualidade.svg" type="image/x-icon">
-  <title>Bikcraft - Portfolio</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <title>Bikcraft - Portfólio</title>
 </head>
 <body>
   <header class="header">
@@ -23,7 +24,7 @@
         <ul>
           <li><a href="sobre.html" >Sobre</a></li>
           <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="portfolio.html" class="menu-ativo">Portfolio</a></li>
+          <li><a href="portfolio.html" class="menu-ativo">Portfólio</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
@@ -32,24 +33,41 @@
   
   <section class="introducao-interna interna-portfolio">
     <div class="class">
-      <h1>Portifolio</h1>      
+      <h1>Portfólio</h1>      
         <p>Conheça os projetos que amamos mostrar</p>  
     </div>
   </section>
 
-  <section class="container quote_clientes">
+  <section class="container quote_clientes" data-slide="quote">
     <blackquote>
       <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
       <cite>Barbara Moss</cite>
-
     </blackquote>
+    <blockquote class="container quote_clientes">
+      <p>
+        "Nada melhor do que dar um rolê com a minha Bikcraft na orla.
+        Essa é a minha companheira mais fiel, nunca me traiu e estpa sempre a minha disposição"
+      </p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+    <blockquote class="container quote_clientes">
+      <p>
+        "Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcenental. Nunca vi nada igual"
+      </p>
+      <cite>Bernardo</cite>
+    </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container"  data-slide="portfolio">
       <ul class="portifolio-lista">
         <li class="grid-8"><img src="img/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
         <li class="grid-8"><img src="img/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-16"><img src="img/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+      </ul >
+      <ul class="portifolio-lista">
+        <li class="grid-8"><img src="img/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-8"><img src="img/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>       
         <li class="grid-16"><img src="img/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
       </ul >
       
@@ -63,7 +81,7 @@
         "O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"
       </p>
       <cite>WILLIAM MORRIS</cite>
-    </blockquote>
+    </blockquote>    
   </section>
 
   <footer>
@@ -102,7 +120,8 @@
     </div>
 
   </footer>
-  
+  <script src="./js/simple-slide.js"></script>
+  <script src="js/script.js"></script>
   
 </body>
 </html>
