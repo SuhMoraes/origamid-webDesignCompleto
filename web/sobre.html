@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.css">  
   <link rel="stylesheet" href="css/sobre.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <link rel="shortcut icon" href="img/img/bikcraft-qualidade.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
   <script>document.documentElement.classList.add("js");</script>
   <title>Bikcraft - Sobre</title>
 </head>
@@ -33,12 +33,12 @@
   
   <section class="introducao-interna interna-sobre">
     <div class="class">
-      <h1>Sobre</h1>      
-        <p>Conheça mais sobre a bikcraft.</p>  
+      <h1 data-anime="400" class="fadeInDown">Sobre</h1>      
+        <p data-anime="800" class="fadeInDown">Conheça mais sobre a bikcraft.</p>  
     </div>
   </section>
 
-  <section class="missao-sobre container">
+  <section class="missao-sobre container fadeInDown" data-anime="1600">
     <div class="grid-8">
       <h2 class="subtitulo-interno">História, Valor e Visão</h2>
       <p>
@@ -82,14 +82,14 @@
     </ul>
   </section>
 
-  <section class="quebra">
+  <div class="quebra">
     <blockquote class="quote-externo container">
       <p>
         "O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"
       </p>
       <cite>WILLIAM MORRIS</cite>
     </blockquote>
-  </section>
+  </div>
 
   <footer>
     <div class="footer">
@@ -112,9 +112,9 @@
         <div class="grid-4 footer-rede">
           <h3>Rede Sociais</h3>
           <ul>
-            <li><a href="http://facebook.com" target="_blank"><img src="img/img/redes-sociais/facebook.svg"></a></li>
-            <li><a href="http://instagram.com" target="_blank"><img src="img/img/redes-sociais/instagram.svg"></a></li>
-            <li><a href="http://twitter.com" target="_blank"><img src="img/img/redes-sociais/twitter.svg"></a></li>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
           </ul>
         </div>
       </div>
@@ -128,6 +128,7 @@
 
   </footer>
   
-  
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

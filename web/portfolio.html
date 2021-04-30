@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">  
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  
   <link rel="shortcut icon" href="img/img/bikcraft-qualidade.svg" type="image/x-icon">
   <script>document.documentElement.classList.add("js");</script>
   <title>Bikcraft - Portfólio</title>
@@ -33,33 +35,29 @@
   
   <section class="introducao-interna interna-portfolio">
     <div class="class">
-      <h1>Portfólio</h1>      
-        <p>Conheça os projetos que amamos mostrar</p>  
+      <h1 class=" fadeInDown" data-anime="400">Portfólio</h1>      
+        <p class=" fadeInDown" data-anime="800">Conheça os projetos que amamos mostrar</p>  
     </div>
   </section>
 
-  <section class="container quote_clientes" data-slide="quote">
+  <section class="container quote_clientes" data-slide="quote" >
     <blackquote>
       <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
       <cite>Barbara Moss</cite>
     </blackquote>
-    <blockquote class="container quote_clientes">
-      <p>
-        "Nada melhor do que dar um rolê com a minha Bikcraft na orla.
-        Essa é a minha companheira mais fiel, nunca me traiu e estpa sempre a minha disposição"
-      </p>
+    <blockquote >
+      <p>"Nada melhor do que dar um rolê com a minha Bikcraft na orla.
+        Essa é a minha companheira mais fiel, nunca me traiu e estpa sempre a minha disposição"</p>
       <cite>Jhony Rato</cite>
-    </blockquote>
-    <blockquote class="container quote_clientes">
-      <p>
-        "Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcenental. Nunca vi nada igual"
-      </p>
+    </blockquote>    
+    <blockquote >
+      <p>"Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcenental. Nunca vi nada igual"</p>
       <cite>Bernardo</cite>
     </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container"  data-slide="portfolio">
+    <div class="container fadeInDown"  data-slide="portfolio" data-anime="400">
       <ul class="portifolio-lista">
         <li class="grid-8"><img src="img/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
         <li class="grid-8"><img src="img/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
@@ -105,9 +103,9 @@
         <div class="grid-4 footer-rede">
           <h3>Rede Sociais</h3>
           <ul>
-            <li><a href="http://facebook.com" target="_blank"><img src="img/img/redes-sociais/facebook.svg"></a></li>
-            <li><a href="http://instagram.com" target="_blank"><img src="img/img/redes-sociais/instagram.svg"></a></li>
-            <li><a href="http://twitter.com" target="_blank"><img src="img/img/redes-sociais/twitter.svg"></a></li>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
           </ul>
         </div>
       </div>
@@ -120,8 +118,10 @@
     </div>
 
   </footer>
+  <script src="js/simple-anime.js"></script>
   <script src="./js/simple-slide.js"></script>
   <script src="js/script.js"></script>
+
   
 </body>
 </html>

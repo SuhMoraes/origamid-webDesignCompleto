@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Bikcraft - Conheça as linhas Passeio, Retrô e Esporte</title>
+  <meta name="description" content="Compre a sua bicicleta personalizadas na Bikcraft.
+  Possímos modelos como: Passeio, Retrô e Esporte"><!--Até 140 caracteres-->
+  <meta property="og:type" content="website"/><!--og = Open Grafic-->
+  <meta property="og:title" content="Bikcraft - Biciclets Personalizadas"/>
+  <meta property="og:description" content="Compre a sua bicicleta personalizadas na Bikcraft. Possímos modelos como: Passeio, Retrô e Esporte"/>
+  <meta property="og:url" content="http://"/>
+  <meta property="og:image" content=""/>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">  
   <link rel="stylesheet" href="css/produtos.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <link rel="shortcut icon" href="img/img/bikcraft-qualidade.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
   <script>document.documentElement.classList.add("js");</script>
-  <title>Bikcraft -Produtos</title>
+  
 </head>
 <body>
   <header class="header">
@@ -33,11 +40,11 @@
   
   <section class="introducao-interna interna-produtos">
     <div class="class">
-      <h1>Produtos</h1>      
-        <p>Conheça todos os nossos produtos.</p>  
+      <h1  class="fadeInDown" data-anime="400">Produtos</h1>      
+        <p class=" fadeInDown" data-anime="800">Conheça todos os nossos produtos.</p>  
     </div>
   </section>  
-  <section class="container produto-item">
+  <section class="container produto-item  fadeInDown" data-anime="1600">
     <div class="grid-11"><img src="img/img/produtos/bikcraft-passeio-1.jpg" alt="Passeio 1">
       <h2>Passeio </h2>
     </div>
@@ -95,17 +102,22 @@
   <section class="orcamento"> 
     <div class="container">
       <h2 class="subtitulo">Orçamento</h2>
-      <form id="form-orcamento" class=" form grid-8" action="">
+      <form id="form-contato" class="contato-form form grid-8 formPHP" method="POST" action="./enviar-sendgrid.php">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
-        <label for="email">E-mail</label>
-        <input type="text" id="email">
-        <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
-        <label for="espec">Especificações</label>
-        <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
-        <button type="submit" class="btn">Enviar</button>
-      </form>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+          <label for="telefone">Telefone</label>
+          <input type="telefone" id="telefone" name="telefone">
+  
+          <label class="nao-aparece" for="">Se você não é um robô, deixe em branco.</label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label class="nao-aparece" for="">Se você não é um robô, não mude este campo.</label>
+          <input type="text" class="nao-aparece" name="dontchange" value="http://">
+          <label for="mensagem">Especificações</label>
+          <textarea name="mensagem" id="mensagem" name="mensagem" cols="30" rows="10" required></textarea>
+          <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+        </form>
       <div class="orcamento-dados grid-8">
         <h3>Dados</h3>
         <span>+55 43 3232-0000</span>
@@ -169,6 +181,9 @@
 
   </footer>
   
+  <script src="js/simple-anime.js"></script>
+  <script src="js/simple-form.js"></script>
+  <script src="js/script.js"></script>
   
 </body>
 </html>
