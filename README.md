@@ -43,7 +43,7 @@
 <hr>
 <h2 id="tecnologias">:computer:Tecnologias</h2>
 
-<div alignt="center" >
+<div align="center" >
 	<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png">
 	<img  src="https://icongr.am/devicon/html5-original.svg?size=50&color=currentColor">
 	<img src="https://icongr.am/devicon/css3-original.svg?size=50&color=currentColor">
