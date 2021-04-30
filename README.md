@@ -42,44 +42,65 @@
 
 <hr>
 <h2 id="tecnologias">:computer:Tecnologias</h2>
-<ul>
-	<li><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"></li>
-</ul>
+
+<div align="center" >
+	<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png">
+	<img  src="https://icongr.am/devicon/html5-original.svg?size=50&color=currentColor">
+	<img src="https://icongr.am/devicon/css3-original.svg?size=50&color=currentColor">
+	<img src="https://icongr.am/devicon/javascript-original.svg?size=50&color=currentColor">
+	
+</div>
 
 <hr>
 <h2 id="conteudo-das-Aulas">:books:Conteúdo das Aulas</h2>
-<h3> 1 - Introdução</h3>
-<ul> 
-	<li>1-1 Introdução</li>
-	<li>1-1-1 O Curso</li>
-	<li>1-1-2 A Interface</li>
+
+<p>Introdução</>
+<ul>
+	<li> O curso de modo geral</li>
 	
 </ul>
-<h3>2 Teoria do Design</h3>
-<ul> 
-        <li>2-1-1 O Que é Design</li>
-	<li>2-1-2 Forma e Espaço</li>
-	<li>2-1-3 Cores</li>
-	<li>2-1-4 Tipografia </li>
-	<li>2-1-5 Grid</li>
-	<li>2-1-6 Dicas</li>	
-</ul>
-<h3>2 Teoria do Design</h3>
-<ul> 
-        <li>2-1-1 O Que é Design</li>
-	<li>2-1-2 Forma e Espaço</li>
-	<li>2-1-3 Cores</li>
-	<li>2-1-4 Tipografia </li>
-	<li>2-1-5 Grid</li>
-	<li>2-1-6 Dicas</li><br>	
-	<li><strong>2-2 UX Design e UI Design</strong></li>
-	<li>2-2-1 O Que é UX Design</li>
-	<li>2-2-2 Usabilidade</li>
-	<li>2-2-3 O Que é UI Design</li>
-	<li>2-2-4 Estilos de UI</li>
+
+
+
+<p>Teoria do Design</>
+<ul>
+	<li> Fundamento do design</li>
+	<li> UX Design e UI Design</li>	
 </ul>
 
 
+
+<p>Design do Projeto</p>
+<ul>
+	<li>Planejamento</li>
+	<li>Adobe XD</li>
+	<li>Wireframe</li>
+	<li>Design</li>	
+</ul>
+
+
+<p>Básico de Codificação</p>
+<ul>
+	<li>Introdução ao Código</li>
+	<li>HTML Básico</li>
+	<li>CSS Básico</li>
+</ul>
+
+
+
+
+<p>
+<p>Código do Projeto
+</p>
+<ul>
+	<li>HTML e CSS</li>
+	<li>Responsivo</li>
+	<li>Javascript e Animações</li>
+	<li>Ajustes Finais</li>
+	<li> Domínio, Hospedagem e Analytics</li>
+</ul>
+
+<br />
 
 <hr>
 
