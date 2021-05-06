@@ -4,9 +4,6 @@
  </a>
  <hr>
  
- <h4 align="center"> 
-	🚧  Curso Web Design🚀 Em construção...  🚧
-</h4>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -36,7 +33,7 @@
 	<li><a href="#">Design</a> <br><br>
 	   <img width="100%"  alignt="center" src="https://github.com/SuhMoraes/origamid-webDesignCompleto/blob/main/00_design-bikecraft/bikeCraft.gif">
 	</li>
-	<li><a href="#">🚧 Web Site</a></li>
+	<li><a href="http://bikcraft-suhmoraes.epizy.com/index.html">🚧 Web Site</a></li>
 </ol>
 
 
