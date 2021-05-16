@@ -1,6 +1,6 @@
 
 <a href="https://www.origamid.com/curso/web-design-completo/">
-  <img src="https://scontent.fldb11-1.fna.fbcdn.net/v/t31.18172-8/s960x960/18278155_1335288956537288_7397950741661673792_o.png?_nc_cat=110&ccb=1-3&_nc_sid=e3f864&_nc_ohc=NeX5wYYQ_4gAX-2_F-J&_nc_ht=scontent.fldb11-1.fna&tp=30&oh=b19ecb7818657ebe48f79a946ce7996f&oe=609CB605">
+  <img src="https://scontent.fldb11-1.fna.fbcdn.net/v/t31.18172-8/18278155_1335288956537288_7397950741661673792_o.png?_nc_cat=110&ccb=1-3&_nc_sid=e3f864&_nc_ohc=h6l-jk1R2I8AX9QvyYK&_nc_ht=scontent.fldb11-1.fna&oh=c7727ff0b816aba19fc3ab5caaf31a04&oe=60C8DDFC">
  </a>
  <hr>
  
